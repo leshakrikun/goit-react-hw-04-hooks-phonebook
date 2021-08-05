@@ -41,7 +41,6 @@ handleChange = (e) => {
 
 getVisibleContacts = () => {
   const { filter, contacts } = this.state;
-  console.log(1, this.state);
   const normalizedFilter = filter.toLowerCase();
 
   return (contacts.filter(cont =>
